@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+bun.lock
+eng.traineddata
+ind.traineddata
+
+# Environment variables
+.env
+
+# Tesseract trained data cache
+.cache/
+
+# Upload temp files
+uploads/
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output (jika nanti ada transpile step)
+dist/
+build/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
